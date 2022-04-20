@@ -1,3 +1,7 @@
+---
+ title: Me
+---
+
 ![Screenshot](assets/images/brandon-pro.jpg)
 
 ### Me.
