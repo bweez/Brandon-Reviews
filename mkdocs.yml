@@ -1,5 +1,7 @@
 site_name: Brandon Reviews
 
+repo_url: https://github.com/bweez/Brandon-Reviews
+
 theme:
   name: material
 
@@ -7,6 +9,8 @@ plugins:
   - search
   - charts
 
+extra_css:
+  - custom-css/landing-page.css
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5
