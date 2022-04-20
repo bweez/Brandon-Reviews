@@ -1,10 +1,9 @@
 ---
  title: Me
 ---
-
-![Screenshot](assets/images/brandon-pro.jpg)
-
-### Me.
+<p align="center">
+  <img width="460" height="300" src="assets/images/brandon-pro.jpg">
+</p>
 
 Hi.  My name is Brandon.  I thought about making a fancy designer landing page.  I could, but that's not really me.  I don't really lean towards frontend problems, I am not that creative when it comes to visual design.  I only occasionally have a good idea.  I prefer system design and data modeling schemas.  So, here is my site built on a pretty straight forward documentation builder call [mkdocs](https://mkdocs.com).  Hey at least I am using a [Material design](https://squidfunk.github.io/mkdocs-material/) theme, that's modern design right?
 
