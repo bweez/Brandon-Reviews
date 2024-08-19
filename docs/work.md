@@ -8,7 +8,7 @@
 - **Enterprise Growth Strategy:** Led the design and development of solutions that expanded the customer base by 20% for a major product line in the ad tech industry.
 -  **Technologies Used:** Java, Kotlin, MongoDB NoSQL
 - **Key Achievements:**
-  - Collaborated with off=shore engineering and GTM teams to create scalable, data-driven products tailored to enterprise needs.
+  - Collaborated with off-shore engineering and GTM teams to create scalable, data-driven products tailored to enterprise needs.
   - Delivered features that significantly contributed to the company's revenue growth and market share expansion.
 
 ---
