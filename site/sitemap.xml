@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://brandonwilliams.info/blog/</loc>
+         <lastmod>2024-08-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://brandonwilliams.info/blog/2024-08-16/</loc>
          <lastmod>2024-08-19</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +37,11 @@
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/2024-08-18/</loc>
+         <lastmod>2024-08-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://brandonwilliams.info/hobbies/</loc>
          <lastmod>2024-08-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
