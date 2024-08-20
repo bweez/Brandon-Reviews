@@ -15,7 +15,7 @@
 
 **You said:**
 
-I want to write an intro to my blog.  The posts conversations I have with ChatGPT.  I really enjoy using ChatGPT to problem solve.  I want to show how I am using it.  I don't want to misrepresent what is happening.  I do minor edits to the conversation we have to adjust formatting or misspelled words.
+I want to write an intro to my blog.  The posts conversations I have with ChatGPT.  I really enjoy using ChatGPT to problem solve.  I want to show how I am using it.  I don't want to misrepresent what is happening.  I do minor edits to the conversation when I have to adjust formatting or misspelled words.
 
 **ChatGPT said:**
 
@@ -33,7 +33,7 @@ Thanks for visiting, and I hope you enjoy the conversations as much as I do.
 Feel free to adjust it further to match your style!
 
 **You said:**
-I recognize that ChatGPT can make mistakes as well.  Often I find that as I use the tips and tricks I will ignore or adjust things I know are wrong.  I am still working on figuring out how to highlight these instances while being faithful to the conversation format.
+I recognize that ChatGPT can make mistakes as well.  Often I find that, as I use the tips and tricks, I will ignore or adjust things I know are wrong.  I am still working on figuring out how to highlight these instances while being faithful to the conversation format.
 
 **ChatGPT said:**
 
