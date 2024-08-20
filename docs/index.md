@@ -26,3 +26,20 @@ Feel free to explore my [projects](projects.md) and [blog](blog/index.md) where 
 
 **Let's Connect:**  
 If you're as excited about AI as I am, or if you want to collaborate on a project, I'd love to hear from you! [Get in touch](mailto:brandonwebdev@gmail.com) and let’s discuss how we can work together to build the future.
+
+
+<!-- AdSense Script -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0206320615603992"
+     crossorigin="anonymous"></script>
+
+
+<div class="ad-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-0206320615603992"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
