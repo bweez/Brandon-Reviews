@@ -1,14 +1,18 @@
-# Latest Posts
+# Introduction
+
+## Latest Posts
+
+0. [Creating Blog Post GPT: A Step-by-Step Journey](2024-08-20.md)
 
 0. [Adding an Ad Unit to Your MkDocs Blog](2024-08-19.md)
 
-1. [Streamlining MkDocs Deployment on GitHub Pages: Fixing Common Errors](2024-08-18.md)
+0. [Streamlining MkDocs Deployment on GitHub Pages: Fixing Common Errors](2024-08-18.md)
    *August 18, 2024*
 
-2. [Balancing Privacy, Profit, and User Well-Being: The Role of AI Agents in Real-Time Bidding](2024-08-17.md)
+0. [Balancing Privacy, Profit, and User Well-Being: The Role of AI Agents in Real-Time Bidding](2024-08-17.md)
    *August 17, 2024*
 
-3. [Bridging the Gap: Reflections on The Alignment Problem by Brian Christian](2024-08-16.md)
+0. [Bridging the Gap: Reflections on The Alignment Problem by Brian Christian](2024-08-16.md)
    *August 16, 2024*
 
 ## Conversations with ChatGPT
