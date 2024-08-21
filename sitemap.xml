@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://brandonwilliams.info/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/projects/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/work/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/2024-08-16/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/2024-08-17/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/2024-08-18/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/blog/2024-08-19/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://brandonwilliams.info/blog/2024-08-20/</loc>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/hobbies/</loc>
-         <lastmod>2024-08-20</lastmod>
+         <lastmod>2024-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

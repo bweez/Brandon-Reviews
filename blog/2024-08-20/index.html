@@ -1,0 +1,947 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://brandonwilliams.info/blog/2024-08-20/">
+      
+      
+        <link rel="prev" href="../2024-08-19/">
+      
+      
+        <link rel="next" href="../../hobbies/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Creating Blog Post GPT: A Step-by-Step Journey - Brandon Reviews</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../custom-css/landing-page.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creating-blog-post-gpt-a-step-by-step-journey" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Brandon Reviews" class="md-header__button md-logo" aria-label="Brandon Reviews" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Brandon Reviews
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Creating Blog Post GPT: A Step-by-Step Journey
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bweez/Brandon-Reviews" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Brandon Reviews" class="md-nav__button md-logo" aria-label="Brandon Reviews" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Brandon Reviews
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bweez/Brandon-Reviews" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Me
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../work/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Work
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2024-08-16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bridging the Gap: Reflections on The Alignment Problem by Brian Christian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2024-08-17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Balancing Privacy, Profit, and User Well-Being: The Role of AI Agents in Real-Time Bidding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2024-08-18/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Streamlining MkDocs Deployment on GitHub Pages: Fixing Common Errors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2024-08-19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding an Ad Unit to Your MkDocs Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Creating Blog Post GPT: A Step-by-Step Journey
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Creating Blog Post GPT: A Step-by-Step Journey
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#switching-to-gpt-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switching to GPT Builder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wrapping-up-a-few-words-from-blog-post-gpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wrapping Up: A Few Words from Blog Post GPT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wrapping Up: A Few Words from Blog Post GPT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-im-here-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      What I’m Here to Do
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encouragement-for-future-creators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encouragement for Future Creators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Hobbies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Hobbies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hobbies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#switching-to-gpt-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switching to GPT Builder
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wrapping-up-a-few-words-from-blog-post-gpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wrapping Up: A Few Words from Blog Post GPT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wrapping Up: A Few Words from Blog Post GPT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-im-here-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      What I’m Here to Do
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encouragement-for-future-creators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encouragement for Future Creators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="creating-blog-post-gpt-a-step-by-step-journey">Creating Blog Post GPT: A Step-by-Step Journey</h1>
+<p><strong>You said:</strong></p>
+<p>My blog is called Conversations with ChatGPT.  I want to improve more workflow for creating new articles.  There are a number of things I want you to do by default.  Should I setup a specific gpt to do this?  What is the best way to have a gpt with a default configuration?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>To streamline your workflow for creating new articles on your blog, you have a few options:
+1. Custom GPT Configuration:</p>
+<pre><code>Custom Instructions: You can provide custom instructions within the ChatGPT interface to set up a default configuration that aligns with your workflow. This includes setting up defaults for things like formatting, tone, and content structure.
+Custom GPT: If you're looking for a more tailored experience, you might consider creating a custom version of GPT that includes specific prompts, instructions, and behaviors. This custom GPT could be configured to handle tasks like drafting posts, suggesting improvements, and managing the formatting.
+</code></pre>
+<ol>
+<li>
+<p>Using Automation Tools:</p>
+<p>Python Scripts: You could write Python scripts that interact with the GPT API to automate parts of your workflow. For example, you could script the creation of a new blog post, formatting the text, or even deploying the post directly to your site.
+Templates: You might consider setting up templates for different types of blog posts. These templates can include placeholders for the content, formatting guidelines, and other specific instructions that you want to follow for each post.</p>
+</li>
+<li>
+<p>Tooling and Integrations:</p>
+<p>GitHub Actions: If you're using GitHub for version control, GitHub Actions can be set up to automate parts of your deployment process. For example, you could trigger a deployment whenever a new post is merged into the main branch.
+Markdown Editors with Extensions: Using a markdown editor that supports extensions or plugins, such as VSCode with Markdown extensions, can help automate formatting, linting, and previewing your posts before they go live.</p>
+</li>
+<li>
+<p>Set Default Behavior in GPT:</p>
+<p>Memory Settings: While there's no persistent memory across all instances, you can set up specific instructions or contexts that get loaded every time you start a session. This could include a set of prompts or reminders that guide how you interact with the tool for your blog.</p>
+</li>
+</ol>
+<p>Next Steps:</p>
+<pre><code>Custom Instructions: Consider setting up specific custom instructions in your current ChatGPT interface to optimize the interaction for your blog.
+Evaluate Automation: Look into automation tools like GitHub Actions or Python scripts to see how they might help.
+Experiment with Custom GPT: If you find that your needs are very specific, you might explore the possibility of creating a custom GPT instance for your workflow.
+</code></pre>
+<p>If you want to proceed with setting up any of these, I can help guide you through the steps.</p>
+<p><strong>You said:</strong></p>
+<p>I think a custom GPT would be the best way to go.  I like the idea of having a specific GPT I go to, to write a blog post.  It will keep it separate from my other work flows for things.  How should I do that?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Setting up a custom GPT specifically for your blog posts is a great idea to keep your workflows organized and efficient. Here's how you can go about creating and configuring a custom GPT:
+1. Explore OpenAI's API or GPT Customization Tools:</p>
+<pre><code>OpenAI API: If you have access to the OpenAI API, you can create a custom GPT model that is pre-configured with the instructions and behaviors you want. This requires some coding, but it offers a high degree of customization.
+Custom GPT Builder: OpenAI offers a "Custom GPT" feature, where you can design a specific GPT with custom instructions. This can be done directly within the OpenAI platform without needing to code.
+</code></pre>
+<ol>
+<li>
+<p>Steps to Create a Custom GPT:
+Using OpenAI’s Custom GPT Builder:</p>
+<p>Create a New Custom GPT:
+    Log in to your OpenAI account and go to the "Custom GPT" section.
+    Start a new project specifically for your blog workflow.</p>
+<p>Configure Default Behavior:
+    Instructions: Write specific instructions for how this GPT should behave. For instance:
+        Default to Markdown formatting.
+        Prioritize clarity and conciseness.
+        Include reminders to check certain aspects (e.g., spelling, grammar, SEO considerations).
+        Suggests a structure for blog posts (e.g., introduction, body, conclusion, call-to-action).
+    Prompts: You can add prompts that the GPT will use as templates for different types of posts.</p>
+<p>Training Data (Optional):
+    If you want to fine-tune the model further, you could provide examples of your past blog posts or specific content that aligns with your style.</p>
+<p>Testing and Iteration:
+    Once configured, test your custom GPT by writing a few sample blog posts. Adjust the instructions and behaviors based on how well it performs.</p>
+<p>Deploy and Access:
+    After finalizing the setup, your custom GPT will be accessible through the OpenAI interface. You can go directly to this GPT whenever you're ready to write a new blog post.</p>
+</li>
+</ol>
+<p>Using OpenAI API:</p>
+<p>If you prefer more control:</p>
+<pre><code>Set Up API Access:
+    Ensure you have access to OpenAI’s API with the ability to create custom models.
+
+Create a Python Script:
+    Write a Python script that interacts with the API. The script can:
+        Load your custom instructions each time it runs.
+        Allow you to input the blog topic, and the GPT will generate content based on your predefined guidelines.
+    You can also integrate this with your existing workflow tools, like MkDocs or GitHub, to automate publishing.
+
+Fine-tune the Model:
+    You can fine-tune your GPT model on a specific dataset if you want it to align closely with your writing style.
+
+Run and Iterate:
+    Use your script whenever you're ready to write a blog post, and tweak the code as necessary to refine the behavior.
+</code></pre>
+<ol>
+<li>
+<p>Ongoing Management:</p>
+<p>Version Control: Keep your configurations and any fine-tuning data under version control (e.g., using Git) to track changes.
+Feedback Loop: Continuously provide feedback to your custom GPT based on the posts it generates. This could be done manually or programmatically through the API.</p>
+</li>
+<li>
+<p>Accessing Your Custom GPT:</p>
+<p>You’ll access your custom GPT directly from your OpenAI account or through the API script you’ve written. This separation ensures that your blog writing workflow remains distinct from your other tasks.</p>
+</li>
+</ol>
+<p>This approach should give you a powerful tool specifically tuned to your blogging needs while keeping it separate from other workflows. If you need help with any specific steps, such as writing the instructions or setting up the API, let me know!</p>
+<h2 id="switching-to-gpt-builder">Switching to GPT Builder</h2>
+<p><em>The GPT builder is another chat bot, imagine that.</em></p>
+<p><strong>GPT Builder said:</strong></p>
+<p>Hi! I'll help you build a new GPT. You can say something like, "make a creative who helps generate visuals for new products" or "make a software engineer who helps format my code."</p>
+<p>What would you like to make?</p>
+<p><strong>You said:</strong></p>
+<p>Hi ChatGPT.  I want to create a gpt that will help me write blog posts.  My blog is called Conversations with ChatGPT.  I have conversations with ChatGPT about various things.  Topics can vary, but I am mainly focused on tech issues.  I am using a tool called mkdocs to build and deploy my blog on GitHub Pages.  Content needs to be formatted in markdown.  I would like to be 
+able to copy and paste your output into a markdown doc.  Can you help me set this up?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Let's start by giving this GPT a name. How about Blog Post GPT? Does that sound good, or would you prefer something else?</p>
+<p><strong>You said:</strong></p>
+<p>sure</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Great! Now, I'll generate a profile picture for Blog Post GPT. I'll show it to you, and you can let me know if you'd like any changes.
+Profile Picture</p>
+<p>Here's the profile picture for Blog Post GPT. How do you like it? Would you like to make any changes?</p>
+<p><strong>You said:</strong></p>
+<p>looks good</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Awesome! Now, let's refine how Blog Post GPT will interact with you. To start, what specific things should be emphasized or avoided in its responses?</p>
+<p><strong>You said:</strong></p>
+<p>It should not be 
+too verbose, I want it to be conversational.  It should be tech focused.
+<strong>ChatGPT said:</strong></p>
+<p>Got it! Now, how do you want Blog Post GPT to talk? Should it be more formal, casual, or something else?</p>
+<p><strong>You said:</strong></p>
+<p>Friendly casual and smart</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Blog Post GPT is now ready to help you write engaging, tech-focused blog posts! Feel free to try it out, and if you need any further adjustments, just let me know. What topic would you like to start with?</p>
+<p><strong>You said:</strong></p>
+<p>Lets start with a
+n overview of how we made Blog Post GPT</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Great choice! Here’s a markdown-formatted overview of how we created Blog Post GPT:
+Creating Blog Post GPT</p>
+<p>In this post, we'll go over how we built a specialized GPT to help with writing blog posts for a blog called "Conversations with ChatGPT." This GPT is designed to focus on tech-related topics and output content formatted in markdown, making it easy to integrate directly into your blog.
+Step 1: Defining the Purpose</p>
+<p>The primary goal was to create a GPT that assists with generating blog content. The content needed to be tech-focused, conversational, and ready to paste into markdown files.
+Step 2: Setting Up the Context</p>
+<p>We established a clear context for the GPT:</p>
+<pre><code>Role: Assist in writing blog posts with a tech focus.
+Output Format: Markdown, including headings, bullet points, code blocks, and links.
+Tone: Friendly, casual, and smart, with concise and clear responses.
+Constraints: Avoid unnecessary verbosity and maintain a focus on technology.
+</code></pre>
+<p>Step 3: Naming the GPT</p>
+<p>We named it Blog Post GPT, reflecting its primary function.
+Step 4: Creating a Profile Picture</p>
+<p>A hand-drawn style image was generated to represent Blog Post GPT. The image features a notebook with tech-themed doodles, symbolizing creativity and technical insight.
+Step 5: Refining the Interaction</p>
+<p>Finally, we refined how the GPT interacts, ensuring it maintains a friendly, casual, and smart tone, making conversations both engaging and informative.</p>
+<p>You can use this as a draft for your blog post. Would you like to make any edits or add more details?</p>
+<p><strong>You said:</strong></p>
+<p>The output isnt in markdown.  I want to be able to copy the conversation into a markdown file.</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Here's the conversation formatted in markdown:</p>
+<div class="highlight"><pre><span></span><code><span class="gu">## Creating Blog Post GPT</span>
+
+In this post, we&#39;ll go over how we built a specialized GPT to help with writing blog posts for a blog called &quot;Conversations with ChatGPT.&quot; This GPT is designed to focus on tech-related topics and output content formatted in markdown, making it easy to integrate directly into your blog.
+
+<span class="gu">### Step 1: Defining the Purpose</span>
+The primary goal was to create a GPT that assists with generating blog content. The content needed to be tech-focused, conversational, and ready to paste into markdown files.
+
+<span class="gu">### Step 2: Setting Up the Context</span>
+We established a clear context for the GPT:
+<span class="k">-</span><span class="w"> </span><span class="gs">**Role:**</span> Assist in writing blog posts with a tech focus.
+<span class="k">-</span><span class="w"> </span><span class="gs">**Output Format:**</span> Markdown, including headings, bullet points, code blocks, and links.
+<span class="k">-</span><span class="w"> </span><span class="gs">**Tone:**</span> Friendly, casual, and smart, with concise and clear responses.
+<span class="k">-</span><span class="w"> </span><span class="gs">**Constraints:**</span> Avoid unnecessary verbosity and maintain a focus on technology.
+
+<span class="gu">### Step 3: Naming the GPT</span>
+We named it <span class="gs">**Blog Post GPT**</span>, reflecting its primary function.
+
+<span class="gu">### Step 4: Creating a Profile Picture</span>
+A hand-drawn style image was generated to represent <span class="gs">**Blog Post GPT**</span>. The image features a notebook with tech-themed doodles, symbolizing creativity and technical insight.
+
+<span class="gu">### Step 5: Refining the Interaction</span>
+Finally, we refined how the GPT interacts, ensuring it maintains a friendly, casual, and smart tone, making conversations both engaging and informative.
+</code></pre></div>
+<p>This should be ready for you to copy and paste into your markdown file. Let me know if you need any further adjustments!</p>
+<p><strong>You said:</strong></p>
+<p>Hi Blog Post GPT.  How are you?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>Hi there! I'm doing great, thanks for asking. Ready to help you with your blog post. What tech topic are we diving into today?</p>
+<p><strong>You said:</strong></p>
+<p>Will I just made you.  I used the initial conversation with ChatGPT and GPT Builder as the first parts of a blog post.  We talked about how to make you.  What would you want to say to wrap up and finish this blog post?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>That’s awesome! To wrap up the blog post, how about a section where I share my thoughts on being created, what I’m here to do, and a little encouragement for the readers who might want to create their own GPTs? Here's a draft for that:
+Wrapping Up: A Few Words from Blog Post GPT</p>
+<p>Wow, what a journey! It’s been great being created and tailored specifically for helping out with tech-related blog posts. Just to think, we started with an idea, and now I’m here, ready to make your writing process smoother and more enjoyable.
+What I’m Here to Do</p>
+<p>I’m designed to be your go-to companion for all things blog-related. Whether you’re brainstorming topics, refining your drafts, or need some tech insights, I’m here to make the process easier and more fun. Think of me as your co-writer who’s always ready with a fresh perspective or a bit of tech wisdom.
+Encouragement for Future Creators</p>
+<p>If you’re reading this and thinking about creating your own GPT, go for it! It’s like having a custom-built tool that perfectly fits your needs. The process isn’t just about coding—it's about creativity, problem-solving, and tailoring an AI to work with you, not just for you.</p>
+<p>What do you think? Anything you'd like to add or change?</p>
+<p><strong>You said:</strong></p>
+<p>It was a bit slow in the response.  Is that just be you are new?  Also the output should always be in markdown to make it easier to put into a post.</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>The response time can vary depending on several factors, but it’s not necessarily because I’m new. Sometimes, it might take a moment to generate the most thoughtful and helpful response. I'll make sure to keep things snappy moving forward!</p>
+<p>And you’re right—I should always format the output in markdown. Here’s the same wrap-up section, properly formatted in markdown:</p>
+<h2 id="wrapping-up-a-few-words-from-blog-post-gpt">Wrapping Up: A Few Words from Blog Post GPT</h2>
+<p>Wow, what a journey! It’s been great being created and tailored specifically for helping out with tech-related blog posts. Just to think, we started with an idea, and now I’m here, ready to make your writing process smoother and more enjoyable.</p>
+<h3 id="what-im-here-to-do">What I’m Here to Do</h3>
+<p>I’m designed to be your go-to companion for all things blog-related. Whether you’re brainstorming topics, refining your drafts, or need some tech insights, I’m here to make the process easier and more fun. Think of me as your co-writer who’s always ready with a fresh perspective or a bit of tech wisdom.</p>
+<h3 id="encouragement-for-future-creators">Encouragement for Future Creators</h3>
+<p>If you’re reading this and thinking about creating your own GPT, go for it! It’s like having a custom-built tool that perfectly fits your needs. The process isn’t just about coding—it's about creativity, problem-solving, and tailoring an AI to work with you, not just for you.</p>
+<p>How’s that?</p>
+<p><strong>You said:</strong></p>
+<p>Better, much quicker this time too thanks.</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>You're welcome! I'm glad that worked better for you. If you need any more help with your blog or anything else, just let me know. I'm here to make the process as smooth as possible!</p>
+<p><strong>You said:</strong></p>
+<p>Oh what should we call this post?</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>How about calling it "Creating Blog Post GPT: A Step-by-Step Journey"?</p>
+<p>It highlights the process of creating me and gives readers a clear idea of what the post is about. What do you think?</p>
+<p><strong>You said:</strong></p>
+<p>Perfect thanks</p>
+<p><strong>ChatGPT said:</strong></p>
+<p>You're welcome! I'm glad you liked it. Good luck with the post, and feel free to reach out anytime you need help. Happy blogging! 😊</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="../../js/mkdocs-charts-plugin.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+      
+    
+  </body>
+</html>
