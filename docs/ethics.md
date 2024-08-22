@@ -1,3 +1,0 @@
-# Ethics
-
-## Coming soon.
