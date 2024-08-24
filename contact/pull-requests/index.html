@@ -14,7 +14,7 @@
         <link rel="prev" href="../contact/">
       
       
-        <link rel="next" href="../../ethics/transparency/">
+        <link rel="next" href="../../ethics/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -599,6 +599,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../../ethics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ethics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/originality/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Ethics of AI-Generated Content: Exploring Originality and Ownership
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../ethics/transparency/" class="md-nav__link">
         
   
@@ -723,8 +765,7 @@
 <p><strong>You said:</strong></p>
 <p>I want to write a blog post about how to send me feedback with a GitHub pull request.  Can you give me an overview of how to download the code from GitHub.  Read markdown files.  Use Git to commit changes to a local repo and how to push code to the remote repo in GitHub.  Can you also give me a set of references for documentation on how to use Git, GitHub, Markdown and mkdocs?  </p>
 <p><strong>ChatGPT said:</strong></p>
-<p>ChatGPT
-Overview of the Process
+<p>Overview of the Process
 1. Downloading the Code from GitHub</p>
 <pre><code>Clone the Repository:
 To start working on a project, you need to download (clone) the repository to your local machine. You can do this with the following command:
@@ -743,26 +784,27 @@ Many text editors have built-in Markdown preview features, or you can use an onl
 <li>
 <p>Using Git to Commit Changes to a Local Repo</p>
 <p>Stage Your Changes:
-After making changes to the Markdown files (or any files in the repo), you need to stage these changes:</p>
+After making changes to the Markdown files (or any files in the repo), you need to stage these changes:
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>filename.md
+</code></pre></div></p>
 </li>
 </ol>
-<p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>filename.md
-</code></pre></div>
-If you want to stage all changed files, you can use:</p>
-<p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
-</code></pre></div>
-Commit Your Changes:
-After staging, commit the changes with a descriptive message:</p>
-<p><div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Your descriptive commit message&quot;</span>
-</code></pre></div>
-4. Pushing Code to the Remote Repo in GitHub</p>
-<pre><code>Push Your Changes:
-Once your changes are committed locally, push them to the remote repository on GitHub:
-</code></pre>
-<p><div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>branch-name
-</code></pre></div>
-    Replace branch-name with the appropriate branch name (e.g., main, feature-branch).</p>
+<p>If you want to stage all changed files, you can use:
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+</code></pre></div></p>
+<p>Commit Your Changes:
+After staging, commit the changes with a descriptive message:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Your descriptive commit message&quot;</span>
+</code></pre></div></p>
 <ol>
+<li>
+<p>Pushing Code to the Remote Repo in GitHub</p>
+<p>Push Your Changes:
+Once your changes are committed locally, push them to the remote repository on GitHub:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>branch-name
+</code></pre></div>
+Replace branch-name with the appropriate branch name (e.g., main, feature-branch).</p>
+</li>
 <li>
 <p>Creating a Pull Request</p>
 <p>After pushing your changes to GitHub, you can create a pull request (PR) from the GitHub website by navigating to your repository, selecting the branch with your changes, and clicking the "New Pull Request" button.</p>
@@ -837,21 +879,17 @@ Push your committed changes to the remote repository on GitHub:
 </li>
 </ol>
 <p>References for Further Reading</p>
-<pre><code>Git Documentation:
-    Official Git documentation: https://git-scm.com/doc
-    GitHub Learning Lab (interactive tutorials): https://lab.github.com/
-
-GitHub Documentation:
-    Getting started with GitHub: https://docs.github.com/en/get-started
-    Creating a pull request: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request
-
-Markdown Documentation:
-    Markdown Guide: https://www.markdownguide.org/
-    CommonMark specification: https://spec.commonmark.org/
-
-MkDocs Documentation:
-    Official MkDocs documentation: https://www.mkdocs.org/
-</code></pre>
+<p>Git Documentation:
+    Official Git documentation: <a href="https://git-scm.com/doc">https://git-scm.com/doc</a></p>
+<p>GitHub Documentation:
+    Getting started with GitHub: <a href="https://docs.github.com/en/get-started">https://docs.github.com/en/get-started</a>
+    Creating a pull request: <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request</a>
+    GitHub Learning Lab (interactive tutorials): <a href="https://lab.github.com/">https://lab.github.com/</a></p>
+<p>Markdown Documentation:
+    Markdown Guide: <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+    CommonMark specification: <a href="https://spec.commonmark.org/">https://spec.commonmark.org/</a></p>
+<p>MkDocs Documentation:
+    Official MkDocs documentation: <a href="https://www.mkdocs.org/">https://www.mkdocs.org/</a></p>
 <p>This overview should guide your readers on how to contribute feedback through a GitHub pull request, and the references provide additional resources for learning.</p>
 
 
