@@ -1,5 +1,20 @@
 # Contact Me
 
+I'd love to hear from you! Whether you have feedback, questions, or ideas for new content, there are a few ways to get in touch:
+
+## Leave a Comment
+You can share your thoughts directly on each blog post by leaving a comment using our [comment system](comments.md). 
+
+## Submit a Pull Request
+If you're familiar with GitHub, feel free to contribute directly! Check out our [guide on submitting a pull request](pull-requests.md) to get started.
+
+## Email
+Prefer to send a private message? You can reach me at [brandonwebdev@gmail.com](mailto:brandonwebdev@gmail.com).
+
+Looking forward to connecting!
+
+## Prompt
+
 **You said:**
 I want to build a Contact me page for my blog.  I was considering figuring out how to add comments to blog posts within a mkdocs page.  Another thought was to just let people submit pull requests, but that may be too much to ask of a casual reader.  It would be simple to create an article to with instructions on creating a pull request.
 

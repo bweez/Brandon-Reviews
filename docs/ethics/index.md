@@ -1,9 +1,10 @@
 # Ethics
 
 **You said:**
+
 I want to write an intro to a ethics page for my blog.  I am at best an arm chair philosopher.  I would love to have any kind of feedback or criticism.  Is it ethical to use an AI to write blog posts?  I am doing my best to be transparent about how I am creating these posts. 
-ChatGPT said:
-ChatGPT
+
+**ChatGPT said:**
 
 Here's a draft for the intro to your ethics page:
 Ethics of AI in Blog Writing
@@ -17,10 +18,12 @@ Transparency is my guiding principle. I openly share that these posts are conver
 But I don't claim to have all the answers. This page is a space for reflection, and I welcome any feedback or criticism from readers. The ethics of AI in creative work is a constantly evolving discussion, and I invite you to join me in exploring it.
 
 This draft positions your blog as a space for open discussion and self-reflection, inviting readers to engage with the ethical considerations of AI in writing. How does this resonate with your vision?
-You said:
+
+**You said:**
+
 I don't want you to be the arm chair philosopher.  That was me being self-deprecating.  What would someone critical of the idea to use AI to create blog posts say?
-ChatGPT said:
-ChatGPT
+
+**ChatGPT said:**
 
 Ah, I see what you mean. Let's consider what a critic might say:
 Ethics of AI in Blog Writing
@@ -32,10 +35,12 @@ One might argue that using AI to generate blog content undermines the authentici
 Transparency is key to addressing these concerns. By being open about how I use AI in my writing process, I hope to maintain the integrity of my work while inviting a broader discussion on the ethics of AI in creative fields.
 
 This version reflects potential criticisms, addressing concerns about authenticity, creativity, and trust. It also emphasizes your transparency as a way to engage with these critiques. Does this capture the perspective you were aiming for?
-You said:
+
+**You said:**
+
 Yes, this is better.  Can you take an antagonistic stance?  What would someone who disapproves say?
-ChatGPT said:
-ChatGPT
+
+**ChatGPT said:**
 
 Certainly! Here's how an antagonistic stance might look:
 The Ethical Dilemma of AI-Written Content
@@ -49,10 +54,12 @@ Moreover, they might argue that AI-generated content lacks the soul and nuance t
 From this perspective, using AI in this way could be seen as undermining the value of authentic writing, turning what should be a deeply personal endeavor into something more akin to a factory line of content production. For those who hold these views, no amount of transparency or acknowledgment can justify the use of AI in creating what they believe should be an inherently human expression.
 
 This version takes a more critical and disapproving tone, emphasizing the potential ethical pitfalls and the perceived loss of authenticity. How does this align with what you were looking for?
-You said:
-Uhh you are still framing yourself as the arm chair philosopher.  I do'nt need another draft.  Lets close by saying something about how to submit feedback with the contact me page.
-ChatGPT said:
-ChatGPT
+
+**You said:**
+
+Uhh you are still framing yourself as the arm chair philosopher.  I don't need another draft.  Lets close by saying something about how to submit feedback with the contact me page.
+
+**ChatGPT said:**
 
 Here's a closing that includes a call for feedback:
 

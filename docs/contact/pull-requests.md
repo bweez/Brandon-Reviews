@@ -6,7 +6,6 @@ I want to write a blog post about how to send me feedback with a GitHub pull req
 
 **ChatGPT said:**
 
-ChatGPT
 Overview of the Process
 1. Downloading the Code from GitHub
 
@@ -14,7 +13,6 @@ Overview of the Process
     To start working on a project, you need to download (clone) the repository to your local machine. You can do this with the following command:
 
 ```bash
-
     git clone https://github.com/your-username/repo-name.git
 ```
     Replace your-username and repo-name with the appropriate GitHub username and repository name.
@@ -30,31 +28,26 @@ Overview of the Process
 
     Stage Your Changes:
     After making changes to the Markdown files (or any files in the repo), you need to stage these changes:
-
 ```bash
-
 git add filename.md
 ```
+
 If you want to stage all changed files, you can use:
-
 ```bash
-
 git add .
 ```
+
 Commit Your Changes:
 After staging, commit the changes with a descriptive message:
-
 ```bash
-
     git commit -m "Your descriptive commit message"
 ```
+
 4. Pushing Code to the Remote Repo in GitHub
 
     Push Your Changes:
     Once your changes are committed locally, push them to the remote repository on GitHub:
-
 ```bash
-
     git push origin branch-name
 ```
     Replace branch-name with the appropriate branch name (e.g., main, feature-branch).
@@ -101,7 +94,6 @@ Overview of the Process
     Once on the GitHub repository page, you can clone the repository to your local machine using the following command:
 
 ```bash
-
     git clone https://github.com/bweez/Brandon-Reviews.git
 ```
 3. Reading Markdown Files
@@ -115,20 +107,17 @@ Overview of the Process
     After making changes to any files, you need to stage them:
 
 ```bash
-
 git add filename.md
 ```
 Or stage all changes with:
 
 ```bash
-
 git add .
 ```
 Commit Your Changes:
 Commit the staged changes with a descriptive message:
 
 ```bash
-
     git commit -m "Your descriptive commit message"
 ```
 5. Pushing Code to the Remote Repo in GitHub
@@ -137,7 +126,6 @@ Commit the staged changes with a descriptive message:
     Push your committed changes to the remote repository on GitHub:
 
 ```bash
-
     git push origin branch-name
 ```
     Replace branch-name with the appropriate branch name, such as main.
@@ -148,19 +136,19 @@ Commit the staged changes with a descriptive message:
 
 References for Further Reading
 
-    Git Documentation:
-        Official Git documentation: https://git-scm.com/doc
-        GitHub Learning Lab (interactive tutorials): https://lab.github.com/
+Git Documentation:
+    Official Git documentation: [https://git-scm.com/doc](https://git-scm.com/doc)
 
-    GitHub Documentation:
-        Getting started with GitHub: https://docs.github.com/en/get-started
-        Creating a pull request: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request
+GitHub Documentation:
+    Getting started with GitHub: [https://docs.github.com/en/get-started](https://docs.github.com/en/get-started)
+    Creating a pull request: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes/creating-a-pull-request)
+    GitHub Learning Lab (interactive tutorials): [https://lab.github.com/](https://lab.github.com/)
 
-    Markdown Documentation:
-        Markdown Guide: https://www.markdownguide.org/
-        CommonMark specification: https://spec.commonmark.org/
+Markdown Documentation:
+    Markdown Guide: [https://www.markdownguide.org/](https://www.markdownguide.org/)
+    CommonMark specification: [https://spec.commonmark.org/](https://spec.commonmark.org/)
 
-    MkDocs Documentation:
-        Official MkDocs documentation: https://www.mkdocs.org/
+MkDocs Documentation:
+    Official MkDocs documentation: [https://www.mkdocs.org/](https://www.mkdocs.org/)
 
 This overview should guide your readers on how to contribute feedback through a GitHub pull request, and the references provide additional resources for learning.
