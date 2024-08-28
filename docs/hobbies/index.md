@@ -19,3 +19,7 @@ Chess is a hobby that challenges my mind and helps me improve my strategic think
 Astronomy has always captivated me with its vastness and the mysteries of the universe. I enjoy spending nights stargazing, learning about constellations, and understanding the science behind celestial events. I have a small telescope that I use to observe planets, the moon, and other deep-sky objects. Recently, I've been diving into astrophotography, trying to capture the beauty of the night sky through my lens.
 
 My long term retirement goal is to create an astronomy STEM camp.  We will sail to the San Juan Islands using the stars.  Discussing the history of astronomy.  Once at the San Juans we will camp and make observations.  I will link to a blog post exploring the details when I write it.
+
+## Mario Kart
+
+Recently completed all of the Grand Prix with 1st place in all races up to 200cc.  I have been starting to play online as well.  It is a great way to unwind.
