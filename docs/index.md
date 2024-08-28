@@ -20,7 +20,7 @@ Welcome to my portfolio! I’m a software engineer with over eight years of expe
 I noticed my personal and professional behavior has changed recently.  I have been using LLMs more and more to solve problems.  I’m diving deep into the world of AI, exploring how machine learning and artificial intelligence can be integrated into real-world applications. My goal is to leverage AI to build innovative solutions that solve complex problems and push the boundaries of what’s possible with technology.
 
 ## Explore My Work
-Feel free to explore my [projects](projects.md) and [blog](blog/index.md) where I share insights, tutorials, and thoughts on AI, software development, and the future of technology.
+Feel free to explore my [projects](projects.md) and [blog](conversations-with-chatGPT/index.md) where I share insights, tutorials, and thoughts on AI, software development, and the future of technology.
 
 ---
 
