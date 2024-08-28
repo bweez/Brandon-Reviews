@@ -2,18 +2,15 @@
 
 ## Latest Posts
 
-0. [Creating Blog Post GPT: A Step-by-Step Journey](2024-08-20.md)
+0. [Ethics](ethics/index.md)
 
-0. [Adding an Ad Unit to Your MkDocs Blog](2024-08-19.md)
+0. [Exploring Bias Detection Tools: Preparing for Fair and Balanced AI-Generated Content](ethics/bias.md)
 
-0. [Streamlining MkDocs Deployment on GitHub Pages: Fixing Common Errors](2024-08-18.md)
-   *August 18, 2024*
+0. [The Ethics of AI-Generated Content: Exploring Originality and Ownership](ethics/originality.md)
 
-0. [Balancing Privacy, Profit, and User Well-Being: The Role of AI Agents in Real-Time Bidding](2024-08-17.md)
-   *August 17, 2024*
+0. [Balancing AI-Generated Content and the Risk of Model Collapse](ethics/quality.md)
 
-0. [Bridging the Gap: Reflections on The Alignment Problem by Brian Christian](2024-08-16.md)
-   *August 16, 2024*
+0. [The Ethics of Using Chatbots to Write Blogs: A Conversation](ethics/transparency.md)
 
 ## Conversations with ChatGPT
 
