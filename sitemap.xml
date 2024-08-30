@@ -2,97 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://brandonwilliams.info/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/projects/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/work/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/AI-News/Intro/</loc>
+         <lastmod>2024-08-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/AI-News/ai-index/</loc>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/ethics/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/ethics/bias/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/ethics/originality/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/ethics/quality/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/ethics/transparency/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/2024-08-16/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/2024-08-17/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/2024-08-18/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/2024-08-19/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/2024-08-20/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/Conversations-with-ChatGPT/tech/linux/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/contact/comments/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/contact/contact/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/contact/pull-requests/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://brandonwilliams.info/hobbies/</loc>
-         <lastmod>2024-08-28</lastmod>
+         <lastmod>2024-08-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
